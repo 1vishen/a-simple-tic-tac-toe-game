@@ -1,4 +1,4 @@
-# simple-tic-tac-toe-game
+# a-simple-tic-tac-toe-game
 
 This project was created to understand the working of functions, arrays & pointers in cpp
 
