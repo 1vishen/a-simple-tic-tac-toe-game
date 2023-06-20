@@ -101,13 +101,13 @@ void playerMove(char *spaces, char player)
         cout << "Enter a spot number to place the marker (1 to 9): ";
         cin >> number;
         number--;
-        if(spaces[number] == '.')
+        if(number >= 0 && number <= 8 && spaces[number] == '.')
         {
             spaces[number] = player;
             break;
         }
     }
-    while(number >= 0 && number <= 8);
+    while(number >= 0 || number <= 10);
 }
 
 void computerMove(char *spaces, char computer)
